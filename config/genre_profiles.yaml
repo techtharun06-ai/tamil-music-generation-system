@@ -1,0 +1,60 @@
+# Tamil Genre Profiles for Model 4
+
+genres:
+  hip-hop:
+    name: "Hip-Hop"
+    description: "Modern Tamil film music, electronic beats"
+    instruments:
+      - "Synthesizer"
+      - "Electronic Drums"
+      - "Bass Guitar"
+      - "Piano"
+    tempo_range: [100, 150]
+    characteristics:
+      - "Electronic beats"
+      - "Urban rhythm"
+      - "Modern production"
+  
+  melody:
+    name: "Melody"
+    description: "Melodic focus, mixed instrumentation"
+    instruments:
+      - "Violin"
+      - "Piano"
+      - "Flute"
+      - "Cello"
+    tempo_range: [80, 120]
+    characteristics:
+      - "Melodic lines"
+      - "Harmonic complexity"
+      - "Orchestral"
+  
+  kuthu:
+    name: "Kuthu/Folk"
+    description: "Folk and devotional music, traditional rhythms"
+    instruments:
+      - "Thavil"
+      - "Nadaswaram"
+      - "Percussion"
+      - "Drums"
+    tempo_range: [110, 140]
+    common_talas: ["Adi", "Rupakam"]
+    characteristics:
+      - "Traditional rhythms"
+      - "Percussive"
+      - "Rhythmic cycles"
+  
+  carnatic:
+    name: "Carnatic"
+    description: "Classical Tamil music, microtonal, complex talas"
+    instruments:
+      - "Veena"
+      - "Mridangam"
+      - "Violin"
+      - "Ghatam"
+    tempo_range: [60, 180]
+    common_talas: ["Adi", "Rupakam", "Khanda Chapu", "Misra Chapu"]
+    characteristics:
+      - "Microtonal"
+      - "Complex talas"
+      - "Improvisational"
